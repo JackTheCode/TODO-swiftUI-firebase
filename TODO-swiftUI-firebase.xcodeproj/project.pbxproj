@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1F315523089382D33070412 /* Pods_TODO_swiftUI_firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 706DC41F7B1F1FB9F5F68C45 /* Pods_TODO_swiftUI_firebase.framework */; };
+		DA464EDF2473E32200E1CEDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA464EDE2473E32200E1CEDC /* AppDelegate.swift */; };
+		DA464EE12473E32200E1CEDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA464EE02473E32200E1CEDC /* SceneDelegate.swift */; };
+		DA464EE52473E32400E1CEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA464EE42473E32400E1CEDC /* Assets.xcassets */; };
+		DA464EE82473E32400E1CEDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA464EE72473E32400E1CEDC /* Preview Assets.xcassets */; };
+		DA464EEB2473E32400E1CEDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA464EE92473E32400E1CEDC /* LaunchScreen.storyboard */; };
+		DA464EF52473E47800E1CEDC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA464EF42473E47800E1CEDC /* GoogleService-Info.plist */; };
+		DA464EF92473EAB200E1CEDC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA464EF82473EAB200E1CEDC /* User.swift */; };
+		DA464EFB2473EACB00E1CEDC /* TODOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA464EFA2473EACB00E1CEDC /* TODOS.swift */; };
+		DA464EFF2473ED4B00E1CEDC /* FirebaseSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA464EFE2473ED4B00E1CEDC /* FirebaseSessionManager.swift */; };
+		DA6E45342477CC0A0023C64F /* TODODetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6E45332477CC0A0023C64F /* TODODetailView.swift */; };
+		DA874EEF247673D5007CD55B /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA874EEE247673D5007CD55B /* ActivityIndicator.swift */; };
+		DA874EF1247674D3007CD55B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA874EF0247674D3007CD55B /* LoadingView.swift */; };
+		DA914FAA2474EBB700556F78 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA914FA92474EBB700556F78 /* LoginViewModel.swift */; };
+		DA914FAD2475053700556F78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA914FAC2475053700556F78 /* ContentView.swift */; };
+		DA914FAF24750B7C00556F78 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA914FAE24750B7C00556F78 /* SignupViewModel.swift */; };
+		DA914FB124750D4600556F78 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA914FB024750D4600556F78 /* LoginView.swift */; };
+		DA914FB324750E1000556F78 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA914FB224750E1000556F78 /* SignupView.swift */; };
+		DA914FB7247511DD00556F78 /* TODODetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA914FB6247511DD00556F78 /* TODODetailViewModel.swift */; };
+		DA914FBB2475193000556F78 /* NewTODOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA914FBA2475193000556F78 /* NewTODOViewModel.swift */; };
+		DA914FBD247519C600556F78 /* NewTODOView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA914FBC247519C600556F78 /* NewTODOView.swift */; };
+		DA914FC124752C3500556F78 /* TODORowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA914FC024752C3500556F78 /* TODORowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AB23EE73C6907F101BF7BBE /* Pods-TODO-swiftUI-firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODO-swiftUI-firebase.debug.xcconfig"; path = "Target Support Files/Pods-TODO-swiftUI-firebase/Pods-TODO-swiftUI-firebase.debug.xcconfig"; sourceTree = "<group>"; };
+		706DC41F7B1F1FB9F5F68C45 /* Pods_TODO_swiftUI_firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TODO_swiftUI_firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C10384A1C3B63B1878C5EA4E /* Pods-TODO-swiftUI-firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODO-swiftUI-firebase.release.xcconfig"; path = "Target Support Files/Pods-TODO-swiftUI-firebase/Pods-TODO-swiftUI-firebase.release.xcconfig"; sourceTree = "<group>"; };
+		DA464EDB2473E32200E1CEDC /* TODO-swiftUI-firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TODO-swiftUI-firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA464EDE2473E32200E1CEDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA464EE02473E32200E1CEDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA464EE42473E32400E1CEDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA464EE72473E32400E1CEDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA464EEA2473E32400E1CEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA464EEC2473E32400E1CEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA464EF42473E47800E1CEDC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA464EF82473EAB200E1CEDC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DA464EFA2473EACB00E1CEDC /* TODOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOS.swift; sourceTree = "<group>"; };
+		DA464EFE2473ED4B00E1CEDC /* FirebaseSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseSessionManager.swift; sourceTree = "<group>"; };
+		DA6E45332477CC0A0023C64F /* TODODetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TODODetailView.swift; sourceTree = "<group>"; };
+		DA874EEE247673D5007CD55B /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		DA874EF0247674D3007CD55B /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		DA914FA92474EBB700556F78 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		DA914FAC2475053700556F78 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA914FAE24750B7C00556F78 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		DA914FB024750D4600556F78 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DA914FB224750E1000556F78 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		DA914FB6247511DD00556F78 /* TODODetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODODetailViewModel.swift; sourceTree = "<group>"; };
+		DA914FBA2475193000556F78 /* NewTODOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTODOViewModel.swift; sourceTree = "<group>"; };
+		DA914FBC247519C600556F78 /* NewTODOView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTODOView.swift; sourceTree = "<group>"; };
+		DA914FC024752C3500556F78 /* TODORowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODORowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA464ED82473E32200E1CEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F315523089382D33070412 /* Pods_TODO_swiftUI_firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84BE506A4295A075B3808B9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AB23EE73C6907F101BF7BBE /* Pods-TODO-swiftUI-firebase.debug.xcconfig */,
+				C10384A1C3B63B1878C5EA4E /* Pods-TODO-swiftUI-firebase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C67F672201784BB2075F8054 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				706DC41F7B1F1FB9F5F68C45 /* Pods_TODO_swiftUI_firebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA464ED22473E32200E1CEDC = {
+			isa = PBXGroup;
+			children = (
+				DA464EDD2473E32200E1CEDC /* TODO-swiftUI-firebase */,
+				DA464EDC2473E32200E1CEDC /* Products */,
+				84BE506A4295A075B3808B9E /* Pods */,
+				C67F672201784BB2075F8054 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA464EDC2473E32200E1CEDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA464EDB2473E32200E1CEDC /* TODO-swiftUI-firebase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA464EDD2473E32200E1CEDC /* TODO-swiftUI-firebase */ = {
+			isa = PBXGroup;
+			children = (
+				DA874EED247673C1007CD55B /* Utils */,
+				DA914FAB2475053700556F78 /* View */,
+				DA464EFE2473ED4B00E1CEDC /* FirebaseSessionManager.swift */,
+				DA464EF62473EAA500E1CEDC /* Models */,
+				DA464EF72473EAA500E1CEDC /* ViewModels */,
+				DA464EF42473E47800E1CEDC /* GoogleService-Info.plist */,
+				DA464EDE2473E32200E1CEDC /* AppDelegate.swift */,
+				DA464EE02473E32200E1CEDC /* SceneDelegate.swift */,
+				DA464EE42473E32400E1CEDC /* Assets.xcassets */,
+				DA464EE92473E32400E1CEDC /* LaunchScreen.storyboard */,
+				DA464EEC2473E32400E1CEDC /* Info.plist */,
+				DA464EE62473E32400E1CEDC /* Preview Content */,
+			);
+			path = "TODO-swiftUI-firebase";
+			sourceTree = "<group>";
+		};
+		DA464EE62473E32400E1CEDC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA464EE72473E32400E1CEDC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA464EF62473EAA500E1CEDC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA464EF82473EAB200E1CEDC /* User.swift */,
+				DA464EFA2473EACB00E1CEDC /* TODOS.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA464EF72473EAA500E1CEDC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DA914FA92474EBB700556F78 /* LoginViewModel.swift */,
+				DA914FAE24750B7C00556F78 /* SignupViewModel.swift */,
+				DA914FB6247511DD00556F78 /* TODODetailViewModel.swift */,
+				DA914FBA2475193000556F78 /* NewTODOViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DA874EED247673C1007CD55B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DA874EEE247673D5007CD55B /* ActivityIndicator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DA914FAB2475053700556F78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA6E45332477CC0A0023C64F /* TODODetailView.swift */,
+				DA914FAC2475053700556F78 /* ContentView.swift */,
+				DA914FB024750D4600556F78 /* LoginView.swift */,
+				DA914FB224750E1000556F78 /* SignupView.swift */,
+				DA914FBC247519C600556F78 /* NewTODOView.swift */,
+				DA914FC024752C3500556F78 /* TODORowView.swift */,
+				DA874EF0247674D3007CD55B /* LoadingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA464EDA2473E32200E1CEDC /* TODO-swiftUI-firebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA464EEF2473E32400E1CEDC /* Build configuration list for PBXNativeTarget "TODO-swiftUI-firebase" */;
+			buildPhases = (
+				0DD5DC388845C8BAB7A3A844 /* [CP] Check Pods Manifest.lock */,
+				DA464ED72473E32200E1CEDC /* Sources */,
+				DA464ED82473E32200E1CEDC /* Frameworks */,
+				DA464ED92473E32200E1CEDC /* Resources */,
+				506FB30C766428B9B710F4FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TODO-swiftUI-firebase";
+			productName = "TODO-swiftUI-firebase";
+			productReference = DA464EDB2473E32200E1CEDC /* TODO-swiftUI-firebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA464ED32473E32200E1CEDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = phatnt;
+				TargetAttributes = {
+					DA464EDA2473E32200E1CEDC = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DA464ED62473E32200E1CEDC /* Build configuration list for PBXProject "TODO-swiftUI-firebase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA464ED22473E32200E1CEDC;
+			productRefGroup = DA464EDC2473E32200E1CEDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA464EDA2473E32200E1CEDC /* TODO-swiftUI-firebase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA464ED92473E32200E1CEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA464EEB2473E32400E1CEDC /* LaunchScreen.storyboard in Resources */,
+				DA464EF52473E47800E1CEDC /* GoogleService-Info.plist in Resources */,
+				DA464EE82473E32400E1CEDC /* Preview Assets.xcassets in Resources */,
+				DA464EE52473E32400E1CEDC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DD5DC388845C8BAB7A3A844 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TODO-swiftUI-firebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		506FB30C766428B9B710F4FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TODO-swiftUI-firebase/Pods-TODO-swiftUI-firebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TODO-swiftUI-firebase/Pods-TODO-swiftUI-firebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TODO-swiftUI-firebase/Pods-TODO-swiftUI-firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA464ED72473E32200E1CEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA464EF92473EAB200E1CEDC /* User.swift in Sources */,
+				DA464EDF2473E32200E1CEDC /* AppDelegate.swift in Sources */,
+				DA914FAF24750B7C00556F78 /* SignupViewModel.swift in Sources */,
+				DA914FB124750D4600556F78 /* LoginView.swift in Sources */,
+				DA6E45342477CC0A0023C64F /* TODODetailView.swift in Sources */,
+				DA874EF1247674D3007CD55B /* LoadingView.swift in Sources */,
+				DA914FC124752C3500556F78 /* TODORowView.swift in Sources */,
+				DA914FB324750E1000556F78 /* SignupView.swift in Sources */,
+				DA914FB7247511DD00556F78 /* TODODetailViewModel.swift in Sources */,
+				DA914FAD2475053700556F78 /* ContentView.swift in Sources */,
+				DA464EE12473E32200E1CEDC /* SceneDelegate.swift in Sources */,
+				DA464EFB2473EACB00E1CEDC /* TODOS.swift in Sources */,
+				DA464EFF2473ED4B00E1CEDC /* FirebaseSessionManager.swift in Sources */,
+				DA874EEF247673D5007CD55B /* ActivityIndicator.swift in Sources */,
+				DA914FBD247519C600556F78 /* NewTODOView.swift in Sources */,
+				DA914FAA2474EBB700556F78 /* LoginViewModel.swift in Sources */,
+				DA914FBB2475193000556F78 /* NewTODOViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA464EE92473E32400E1CEDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA464EEA2473E32400E1CEDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA464EED2473E32400E1CEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA464EEE2473E32400E1CEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA464EF02473E32400E1CEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB23EE73C6907F101BF7BBE /* Pods-TODO-swiftUI-firebase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TODO-swiftUI-firebase/Preview Content\"";
+				DEVELOPMENT_TEAM = SJFV9RP76W;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TODO-swiftUI-firebase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackthecode.TODO-swiftUI-firebase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA464EF12473E32400E1CEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C10384A1C3B63B1878C5EA4E /* Pods-TODO-swiftUI-firebase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TODO-swiftUI-firebase/Preview Content\"";
+				DEVELOPMENT_TEAM = SJFV9RP76W;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TODO-swiftUI-firebase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackthecode.TODO-swiftUI-firebase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA464ED62473E32200E1CEDC /* Build configuration list for PBXProject "TODO-swiftUI-firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA464EED2473E32400E1CEDC /* Debug */,
+				DA464EEE2473E32400E1CEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA464EEF2473E32400E1CEDC /* Build configuration list for PBXNativeTarget "TODO-swiftUI-firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA464EF02473E32400E1CEDC /* Debug */,
+				DA464EF12473E32400E1CEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA464ED32473E32200E1CEDC /* Project object */;
+}
